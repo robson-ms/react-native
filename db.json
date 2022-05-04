@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 11220850,
+      "name": "Samsung S20",
+      "price": 4.689,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577142-samsung_s20.webp"
+      },
+      "isFavorite": true
+    },
+    {
+      "id": 11220852,
+      "name": "Samsung S20 Outro",
+      "price": 4.89,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577142-samsung_s20.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220853,
+      "name": "Samsung S22 Preto",
+      "price": 5.978,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577146-samsung_s22.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220854,
+      "name": "Samsung S22",
+      "price": 5.999,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577146-samsung_s22.webp"
+      },
+      "isFavorite": true
+    },
+    {
+      "id": 11220860,
+      "name": "Iphone Preto",
+      "price": 5.745,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577139-ihpone_13_black.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220877,
+      "name": "Iphone",
+      "price": 6.755,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577139-ihpone_13_black.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220827,
+      "name": "Samsung S20 Azul",
+      "price": 4.686,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577142-samsung_s20.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220830,
+      "name": "Samsung S22 Preto",
+      "price": 5.956,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577146-samsung_s22.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220824,
+      "name": "Iphone Preto",
+      "price": 6.745,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577139-ihpone_13_black.webp"
+      },
+      "isFavorite": false
+    },
+    {
+      "id": 11220822,
+      "name": "Iphone 13 Branco",
+      "price": 6.545,
+      "image": {
+        "url": "https://www.datocms-assets.com/70431/1651577134-ihpone_13.webp"
+      },
+      "isFavorite": false
+    }
+  ]
+}
