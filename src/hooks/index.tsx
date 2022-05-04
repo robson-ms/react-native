@@ -1,5 +1,5 @@
 import React from 'react';
-import {ProductsProvider} from './getProducts';
+import {ProductsProvider} from './useProducts';
 
 const AppProvider: React.FC = ({children}) => (
   <ProductsProvider>{children}</ProductsProvider>

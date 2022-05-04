@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text} from 'react-native';
 import TrashIcon from '../../../../assets/trash.svg';
-import {ProductsType} from '../../../../hooks/getProducts/types';
+import {ProductsType} from '../../../../hooks/useProducts/types';
 
 import {
   Container,
