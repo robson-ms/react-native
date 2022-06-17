@@ -14,8 +14,6 @@ export default () => (
     }}
     screenOptions={{
       headerShown: false,   
-      tabBarInactiveTintColor: 'red',
-      headerPressColor: 'red'
     }}>
     <Tab.Screen
       name="Home"

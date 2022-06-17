@@ -1,6 +1,7 @@
 import React from 'react';
 import Cart from '../assets/cart.svg';
 import Logo from '../assets/logo.svg';
+import IconComponent from 'react-native-vector-icons/MaterialCommunityIcons';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import MainTab from '../routes/MainTab';
 import Detail from '../screens/detail';
@@ -25,7 +26,7 @@ const MainStack = () => {
           ),
           headerRight: () => (
             <TouchableOpacity>
-              <Cart width={30} height={30} fill="#fff" />
+              <IconComponent name='cart' size={30} color="#fff" />
             </TouchableOpacity>
           ),
         }}
