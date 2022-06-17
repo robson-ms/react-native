@@ -1,8 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
 import Button from '../../components/Button';
-import {ProductsType} from '../../hooks/getProducts/types';
-import {useProducts} from '../../hooks/getProducts';
+import {ProductsType} from '../../hooks/useProducts/types';
+import {useProducts} from '../../hooks/useProducts';
 import AsyncStorage from '@react-native-community/async-storage';
 import {valueToCurrency} from '../../utils/mask';
 import {

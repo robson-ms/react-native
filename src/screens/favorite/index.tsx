@@ -1,5 +1,5 @@
 import React, {useCallback} from 'react';
-import {useProducts} from '../../hooks/getProducts';
+import {useProducts} from '../../hooks/useProducts';
 import {FlatList, Text} from 'react-native';
 
 import {Container} from './styles';

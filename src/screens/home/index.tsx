@@ -2,7 +2,7 @@ import {useFocusEffect} from '@react-navigation/native';
 import React, {useCallback} from 'react';
 import {FlatList} from 'react-native';
 import Card from './component/Card';
-import {useProducts} from '../../hooks/getProducts';
+import {useProducts} from '../../hooks/useProducts';
 import {Container} from './styles';
 
 const Home = () => {

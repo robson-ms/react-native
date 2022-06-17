@@ -1,17 +1,17 @@
-import {useFocusEffect} from '@react-navigation/native';
-import React, {useCallback} from 'react';
-import Card from './componets/Card';
-import {useProducts} from '../../hooks/getProducts';
-import {Container} from './styles';
-import {FlatList, Text} from 'react-native';
+import { useFocusEffect } from "@react-navigation/native";
+import React, { useCallback } from "react";
+import Card from "./componets/Card";
+import { useProducts } from "../../hooks/useProducts";
+import { Container } from "./styles";
+import { FlatList, Text } from "react-native";
 
 const Home: React.FC = () => {
-  const {fetchDataCart, dataCart, loading, removeDataCart} = useProducts();
+  const { fetchDataCart, dataCart, loading, removeDataCart } = useProducts();
 
   useFocusEffect(
     useCallback(() => {
       fetchDataCart();
-    }, [fetchDataCart]),
+    }, [fetchDataCart])
   );
 
   function removerOfCard(id: number) {
@@ -21,11 +21,11 @@ const Home: React.FC = () => {
   return (
     <Container>
       {loading ? (
-        <Text style={{fontSize: 22, margin: 20}}>Carregando...</Text>
+        <Text style={{ fontSize: 22, margin: 20 }}>Carregando...</Text>
       ) : (
         <FlatList
           data={dataCart}
-          renderItem={({item}) => (
+          renderItem={({ item }) => (
             <Card product={item} removerOfCard={removerOfCard} />
           )}
           keyExtractor={(item: any) => item.id}
